@@ -45,4 +45,4 @@ router.use((req, res, next) => {
 const httpServer = http.createServer(router);
 const PORT: any = 80;
 const HOST: any = '0.0.0.0'
-httpServer.listen(PORT, HOST, () => console.log(`The server is running on port ${HOSTNAME}:${PORT}`));
+httpServer.listen(PORT, HOST, () => console.log(`The server is running on port ${HOST}:${PORT}`));
