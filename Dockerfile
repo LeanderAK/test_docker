@@ -18,8 +18,6 @@ ENV GENERATE_SOURCEMAP false
 ENV PORT = 8080
 ENV FIREBASE_API_KEY = "AIzaSyDarZyJqdfwiqwwsHMnzHqm5IPwHgeaUQQ"
 
-RUN chown -R root:root /var/lib/docker/tmp
-
 # Expose the default port for the server
 EXPOSE 8080
 # Run the server when the container is started
