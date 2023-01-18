@@ -1,7 +1,5 @@
 # Use the official Python image as the base image
-FROM alpine
-
-RUN apk add --update nodejs npm
+FROM node:alpine
 
 COPY package.json .
 COPY package-lock.json .
